@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WaitThread">
+      <UniqueIdentifier>{c2e91fdb-225f-433d-b4fb-ebbfcb259065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WQSemaphore">
+      <UniqueIdentifier>{d638469b-dac6-4931-a0e1-5b5f5bb4a238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyThread3">
+      <UniqueIdentifier>{9d4cc10b-1667-4c25-8ac0-828ed5337745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MultiSyncWaits">
+      <UniqueIdentifier>{5351e37d-9aa4-4ff6-a690-171864ba2c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mutex">
+      <UniqueIdentifier>{16d6ab0d-adf7-43b7-821b-93625a1b747d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Semaphore">
+      <UniqueIdentifier>{bb525284-fd4e-4486-9bb6-ce686fb85f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{efcbd852-f5e6-4a65-b3f4-d918cddb0f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WaitableTimer">
+      <UniqueIdentifier>{c50a66a3-31f0-4d0a-bf09-c43aee1791db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MsgQueue">
+      <UniqueIdentifier>{c2e11b7a-0444-4d18-bdfc-63fbcc9cafc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackgroundWorker">
+      <UniqueIdentifier>{febb9fd5-a48e-4f6c-a2ed-51e003b9119f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WaitThread.cpp">
+      <Filter>WaitThread</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>WaitThread</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiSyncWaits.cpp">
+      <Filter>MultiSyncWaits</Filter>
+    </ClCompile>
+    <ClCompile Include="MyThread3.cpp">
+      <Filter>MyThread3</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitMultiThreads.cpp">
+      <Filter>WaitThread</Filter>
+    </ClCompile>
+    <ClCompile Include="MutexNoti.cpp">
+      <Filter>Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="MutextTest.cpp">
+      <Filter>Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="WQSemaphore.cpp">
+      <Filter>Semaphore</Filter>
+    </ClCompile>
+    <ClCompile Include="SemaphoreTest.cpp">
+      <Filter>Semaphore</Filter>
+    </ClCompile>
+    <ClCompile Include="TPSemaphore.cpp">
+      <Filter>Semaphore</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTest.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitWithEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EventNotify.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="WQNotify.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="EvtRWLock.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitableTimerTest.cpp">
+      <Filter>WaitableTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitableTimerTest2.cpp">
+      <Filter>WaitableTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="MaunualWTTest.cpp">
+      <Filter>WaitableTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="WakeSleepSystem.cpp">
+      <Filter>WaitableTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="SetWaitalbeTimerEx.cpp">
+      <Filter>WaitableTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgNotify.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgQueue.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgWaitMulti.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitSet.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitPool.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMain.cpp">
+      <Filter>MsgQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="BkgrdWorker.cpp">
+      <Filter>BackgroundWorker</Filter>
+    </ClCompile>
+    <ClCompile Include="BkgWorkCpp.cpp">
+      <Filter>BackgroundWorker</Filter>
+    </ClCompile>
+    <ClCompile Include="BkgWorkCppDlg.cpp">
+      <Filter>BackgroundWorker</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>WaitThread</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>WaitThread</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitItem.h">
+      <Filter>WaitThread</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitPool.h">
+      <Filter>WaitThread</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitSet.h">
+      <Filter>WaitThread</Filter>
+    </ClInclude>
+    <ClInclude Include="BkgWorkCpp.h">
+      <Filter>BackgroundWorker</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BkgrdWorker.h">
+      <Filter>BackgroundWorker</Filter>
+    </ClInclude>
+    <ClInclude Include="BkgWorkCppDlg.h">
+      <Filter>BackgroundWorker</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BkgWorkCpp.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
